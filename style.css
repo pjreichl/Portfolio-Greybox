@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    
+}
+
+header {
+    padding: 10%;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.bio, .information {
+    width: 100%;
+    padding-top: 5%;
+    font-size: 20px;
+    text-align: center;
+}
+
+section {
+    min-height: 200px;
+    background-color: darkgray;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+
+aside {
+    width: 50%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    padding: 5% 0;
+    text-align: center;
+    margin: 0;
+}
+
+section:nth-child(even) {
+    background-color: lightgray;
+}
+
+span {
+    width: 50%;
+}
+
+footer {
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5% 0;
+}
